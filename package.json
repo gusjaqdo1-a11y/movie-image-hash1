@@ -1,0 +1,17 @@
+{
+  "name": "movie-image-hash1",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "wrangler dev",
+    "deploy": "wrangler deploy",
+    "check": "wrangler deploy --dry-run"
+  },
+  "dependencies": {
+    "jpeg-js": "0.4.4"
+  },
+  "devDependencies": {
+    "wrangler": "^4.45.0"
+  }
+}
